@@ -12,7 +12,7 @@ System.out.println("digite o numero do lado do quadrado:");
 int NumeroLado = scanner.nextInt ();
 
 //calcula a area do quadrado
-int resultadoarea = 2 * NumeroLado;
+int resultadoarea = NumeroLado * NumeroLado;
 
 // exibe o resultado
 System.out.println("A area do quadrado é:" + resultadoarea);
